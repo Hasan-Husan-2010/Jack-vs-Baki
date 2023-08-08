@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.hh {
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.sdf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+}
+.dsr {
+    background-color: black;
+    padding: 100px;
+}
+.dsr:hover .se {
+    transform: rotate(360deg);
+    width: 100%;
+}
+.ko {
+    width: 50%;
+    margin: auto;
+}
+.io {
+    width: 45%;
+}
+.Jack {
+    transition:1s all linear;
+    transform: translateX(0px);
+}
+.kol {
+    max-width: 170px;
+    margin: 0;
+    margin: auto;
+}
+.er {
+    color: rgb(255, 255, 255);
+    transition:1s all linear;
+}
+.fyu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+}
+.fyu:hover .Jack {
+    transform: translateX(-600px);
+}
+.fyu:hover .Baki {
+    transform: translateX(600px);
+}
+.fyu:hover .er {
+    color: rgba(255, 255, 255, 0);
+}
+.fyu:hover {
+    background-image: url(Baki\ va\ Jackk.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fyu {
+    transition: 1s all linear;
+}
+.gy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+}
+.gy:hover .Jack {
+    transform: translateX(-600px);
+}
+.gy:hover .Baki {
+    transform: translateX(600px);
+}
+.gy:hover .er {
+    color: rgba(255, 255, 255, 0);
+}
+.gy:hover {
+    background-image: url(Jack.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gy {
+    transition: 1s all linear;
+}
+.Baki {
+    transition:1s all linear;
+    transform: translateX(0px);
+}
+.sdf:hover .Jack {
+    transform: translateX(-600px);
+}
+.sdf:hover .Baki {
+    transform: translateX(600px);
+}
+.sdf:hover .er {
+    color: rgba(255, 255, 255, 0);
+}
+.sdf:hover {
+    background-image: url(Baki.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sdf {
+    transition: 1s all linear;
+}
+.ase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(Baki\ va\ Jack.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.asa {
+    padding: 200px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(Baki\ va\ Jackk.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.asw {
+    background-color: rgb(0, 0, 0);
+    background-image: url(Jakk\ vs\ Baki.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ty {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.p {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+@media(max-width:500px){
+    .fyu,.gy,.sdf {
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+    .ty {
+        font-size: 20px;
+    }
+}
